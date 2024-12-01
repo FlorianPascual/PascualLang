@@ -74,10 +74,10 @@
 ### **Steps**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/pascuallang.git
+   git clone https://github.com/FlorianPascual/PascualLang.git
 2. Navigate to the project folder:
    ```bash
-   cd pascuallang
+   cd PascualLang
 3. **Load the extension:**
    - **For Chrome:**
      1. Go to `chrome://extensions/` in your Chrome browser.
