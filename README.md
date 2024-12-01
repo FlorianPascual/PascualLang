@@ -2,7 +2,7 @@
 
 ![PascualLang Logo](icons/icon128.png)
 
-**PascualLang** is a powerful browser extension designed to improve your text input across the web. Whether you’re writing an email, crafting a social media post, or participating in an online chat, Text Enhancer refines your text, corrects grammar, and can even translate it seamlessly—all with customizable tones and styles.
+**PascualLang** is a powerful browser extension designed to improve your text input across the web. Whether you’re writing an email, crafting a social media post, or participating in an online chat, PascualLang refines your text, corrects grammar, and can even translate it seamlessly—all with customizable tones and styles.
 
 ---
 
