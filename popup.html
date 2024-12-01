@@ -1,0 +1,61 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PascualLang Settings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Text Enhancer Settings</h2>
+
+  <label>Select Tone Preset:</label>
+  <div id="preset-container">
+    <label class="preset-option" data-tooltip="Professional and informal tone.">
+      <input type="radio" name="preset" value="charles">
+      <img src="icons/charles.png" alt="Charles">
+      <span>Charles</span>
+    </label>
+    <label class="preset-option" data-tooltip="Informal, uses youth slang and emojis.">
+      <input type="radio" name="preset" value="cindy">
+      <img src="icons/cindy.png" alt="Cindy">
+      <span>Cindy</span>
+    </label>
+    <label class="preset-option" data-tooltip="Standard and balanced tone.">
+      <input type="radio" name="preset" value="maxime">
+      <img src="icons/maxime.png" alt="Maxime">
+      <span>Maxime</span>
+    </label>
+    <label class="preset-option" data-tooltip="Uses slang and casual speech, with intentional mistakes.">
+      <input type="radio" name="preset" value="kevin-momo">
+      <img src="icons/kevin-momo.png" alt="Kevin-Momo">
+      <span>Kevin-Momo</span>
+    </label>
+    <label class="preset-option" data-tooltip="Define your own custom tone.">
+      <input type="radio" name="preset" value="custom">
+      <img src="icons/custom.png" alt="Custom Tone">
+      <span>Custom Tone</span>
+    </label>
+  </div>
+
+  <div id="customToneSection" style="display: none;">
+    <label for="tone">Custom Tone Description:</label><br>
+    <textarea id="tone" rows="4" cols="50" placeholder="Enter your custom tone description..."></textarea><br>
+  </div>
+
+  <label for="apiKey">OpenAI API Key:</label><br>
+  <input type="password" id="apiKey" placeholder="Enter your OpenAI API Key"><br>
+  <a href="https://platform.openai.com/account/api-keys" target="_blank">Get your API key</a><br><br>
+
+  <button id="save">Save Settings</button>
+
+  <h3>How to Use</h3>
+  <ul>
+    <li>To process text, click the icon in any text input or use the keyboard shortcut <strong>Ctrl+Shift+Y</strong> (Command+Shift+Y on Mac).</li>
+    <li>Use <code>/translate to [language]</code> at the beginning of your text to translate it. Example: <code>/translate to Spanish Hello</code>.</li>
+    <li>Select a tone preset or define a custom tone for text processing.</li>
+  </ul>
+  <h4>Made with ♥ by Florian Pascual</h4>
+
+  <script src="popup.js"></script>
+</body>
+</html>
